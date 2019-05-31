@@ -589,6 +589,10 @@ strong {
   -ms-flex-pack: center;
   justify-content: center;
 }
+.btn-apply-home {
+    margin-bottom: 3em;
+    margin-top: -2em;
+}
 .home-follow-insta {
     margin-top: -40px !important;
     margin-bottom: 60px !important;
