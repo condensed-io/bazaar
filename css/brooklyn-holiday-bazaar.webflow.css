@@ -226,7 +226,7 @@ strong {
 
 .time-section {
   padding-top: 148px;
-  padding-bottom: 148px;
+  padding-bottom: 168px;
 }
 
 .info-section {
@@ -1303,6 +1303,8 @@ strong {
 .horizontal-stroke-2 {
   width: 60%;
   height: 1px;
+  margin-right: 20px;
+  margin-left: 20px;
   background-color: #ddd;
 }
 
@@ -1376,6 +1378,22 @@ strong {
   width: 12px;
   height: 9px;
   border-bottom: 2px solid #a0a0a0;
+}
+
+.divider-flex-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 64px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 991px) {
@@ -1601,6 +1619,9 @@ strong {
   }
   .title.center.time {
     font-size: 16px;
+  }
+  .button {
+    line-height: 130%;
   }
   .button-3.newsletter-cta {
     width: 120px;
@@ -1926,6 +1947,12 @@ strong {
   .date {
     height: 66px;
   }
+  .horizontal-stroke-2 {
+    width: 75%;
+    min-width: 0px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
   .typeform {
     height: 100vh;
     margin-top: 0px;
@@ -1967,8 +1994,14 @@ strong {
   .regular-heading {
     font-size: 26px;
   }
+  .regular-heading.center.location {
+    margin-bottom: 24px;
+  }
   .hero-section {
     height: 94vh;
+  }
+  .time-section {
+    padding-bottom: 104px;
   }
   .info-section {
     padding-top: 96px;
@@ -2184,7 +2217,11 @@ strong {
     margin-left: 10px;
   }
   .horizontal-stroke-2 {
-    width: 80px;
+    display: block;
+    width: 60%;
+  }
+  .divider-flex-2 {
+    margin-top: 48px;
   }
 }
 
