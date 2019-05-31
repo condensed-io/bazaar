@@ -582,6 +582,7 @@ strong {
   display: flex;
   width: 400px;
   margin-top: -24px;
+    margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-pack: center;
