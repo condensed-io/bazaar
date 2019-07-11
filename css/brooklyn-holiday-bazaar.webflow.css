@@ -279,6 +279,7 @@ strong {
 .logo-wrapper {
   display: block;
   float: left;
+  padding: 20px;
 }
 
 .logo {
@@ -294,7 +295,7 @@ strong {
 }
 
 .nav-link {
-  padding: 0px 20px;
+  padding: 25px 20px;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
@@ -672,8 +673,6 @@ strong {
   width: 95%;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .logo-avatar {
