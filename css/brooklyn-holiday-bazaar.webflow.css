@@ -1223,7 +1223,7 @@ strong {
 .sponsors-img-1 {
   width: 45%;
   height: 360px;
-  background-image: url('../images/reach-now.jpg');
+  background-image: url('../images/reach_now.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1232,6 +1232,24 @@ strong {
   width: 45%;
   height: 360px;
   background-image: url('../images/0_XI1V634ptElq9Moj.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sponsor-img-3 {
+  width: 45%;
+  height: 360px;
+  background-image: url('../images/brooklyn_dance_lessons.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sponsor-img-4 {
+  width: 45%;
+  height: 360px;
+  background-image: url('../images/bead_on_bond_partner.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
